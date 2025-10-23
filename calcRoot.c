@@ -26,6 +26,6 @@ void main(){
 double calculateRoot(int a, int b, int c){
 	double root;
 	
-	root = (-b + sqrt((b^2) - (4 * a )* c)) / (2 * a);
+	root = (-b + sqrt((b^2) - (4 * a * c))) / (2 * a);
 	return root;
 }
